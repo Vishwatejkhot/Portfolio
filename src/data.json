@@ -1,0 +1,141 @@
+{
+  "basics": {
+    "name": "Vishwatej Khot",
+    "title": "AI Engineer",
+    "summary": "AI Engineer with 2 years of experience building production-grade ML and Generative AI systems, including RAG pipelines, multi-agent LLM orchestration, and scalable data extraction workflows. Proven ability to take models from research to deployment with measurable business impact across healthcare, security, and enterprise automation.",
+    "location": "Bristol, United Kingdom",
+    "email": "my25287@bristol.ac.uk",
+    "phone": "+44 7868675914",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/vishwatej-k-575911234/",
+      "github": "https://github.com/Vishwatejkhot"
+    }
+  },
+  "experience": [
+    {
+      "company": "Intelimek Systems Pvt Ltd",
+      "role": "Generative AI Intern",
+      "dates": "Apr 2024 – Mar 2025",
+      "location": "Pune",
+      "bullets": [
+        "Developed a Retrieval-Augmented Generation (RAG) system using LangChain and LLaMA to accelerate and enhance data retrieval from large PDF corpora.",
+        "Integrated NLP-driven automation for document analysis, reducing manual processing effort by 40% while improving consistency and throughput.",
+        "Built summarization, tagging, and data-extraction pipelines to convert unstructured PDFs into structured, searchable knowledge bases."
+      ],
+      "metrics": ["40% reduction in effort"]
+    },
+    {
+      "company": "Abhinaya Pvt Ltd",
+      "role": "AI Intern",
+      "dates": "May 2024 – Nov 2024",
+      "location": "United Kingdom",
+      "bullets": [
+        "Engineered NeRF and Gaussian Splatting pipelines for advanced 3D scene reconstruction from high-quality 4D datasets using Blender.",
+        "Enhanced volumetric rendering performance and contributed to internal tooling for workflow documentation and model experimentation, improving iteration speed by 30%.",
+        "Supported development of structured internal systems, relevant to VC operations and AI-based experimentation."
+      ],
+      "metrics": ["30% improvement in iteration speed"]
+    },
+    {
+      "company": "Abhinaya Pvt Ltd",
+      "role": "Part-time AI & ML Developer",
+      "dates": "Nov 2024 – Aug 2025",
+      "location": "United Kingdom",
+      "bullets": [
+        "Built DocAssist, a Generative AI-powered healthcare tool to automate medical documentation and assist diagnostic decisions.",
+        "Created data workflows, summarization engines, and structured knowledge modules for intelligent automation and reporting.",
+        "Applied LLMs for building tools that support dealflow tracking and portfolio analysis in VC-like workflows."
+      ]
+    },
+    {
+      "company": "KSH International Pvt Ltd",
+      "role": "Sponsored Project – Data Science",
+      "dates": "Sept 2024 – Jan 2025",
+      "location": "Remote",
+      "bullets": [
+        "Automated technical datasheet management using a Generative AI pipeline to replace Excel-based systems with structured databases.",
+        "Designed internal dashboards and reporting workflows, improving team productivity and information traceability.",
+        "Delivered solutions aligned with VC portfolio management tools, automated reporting, and internal knowledge systems."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Smart India Hackathon",
+      "context": "Secured 8th position at the college level",
+      "type": "Competition"
+    },
+    {
+      "title": "IIT Madras Machine Learning Competition",
+      "context": "Achieved 5th place",
+      "type": "Competition"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Autonomous API reverse engineering system",
+      "description": "Designed and deployed an autonomous API reverse-engineering system to reconstruct undocumented endpoints from raw HTTP traffic. Built a multi-agent LLaMA-3 pipeline with FAISS indexing and continuous contract validation, reducing API drift incidents by 80% across distributed services.",
+      "metrics": ["80% reduction in API drift"]
+    },
+    {
+      "title": "Skin Cancer Detection",
+      "description": "Developed and deployed a CNN-based skin cancer detection system optimized for high-accuracy, low-latency inference in production. Trained models on AWS EC2 GPU infrastructure with datasets managed in S3, and integrated Explainable AI for transparent predictions, reducing manual clinician review by 35%. Implemented end-to-end monitoring and logging with CloudWatch to ensure observability and reliability in real-world healthcare workflows.",
+      "metrics": ["35% reduction in manual review"]
+    },
+    {
+      "title": "Multiclass Malware Detection",
+      "description": "Developed a multiclass malware detection system using a modified DeeperGCN architecture to model structural patterns in executable data. Built scalable feature pipelines by transforming raw BYTE files into image-based representations, and integrated Explainable AI with LLaMA-3.1–assisted analysis to generate actionable threat insights, reducing security analyst investigation time by 45%.",
+      "metrics": ["45% reduction in investigation time"]
+    },
+    {
+      "title": "AegisAI – Self-Healing Enterprise RAG System",
+      "description": "Designed and deployed a production-grade, self-healing RAG system for enterprise document Q&A. Implemented vector-based retrieval with confidence scoring, safety enforcement, and non-blocking self-healing workflows, reducing hallucination-related failures by 40% under low-context scenarios. Delivered a Flask-based API and UI with monitoring and audit logs, improving answer reliability and system robustness across uncertain inputs.",
+      "metrics": ["40% reduction in hallucination failures"]
+    }
+  ],
+  "skills": {
+    "Languages & Data": ["Python", "SQL", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Power BI", "Tableau", "Streamlit", "Data Analytics"],
+    "AI, ML & GenAI": ["PyTorch", "Transformers", "HuggingFace", "TensorFlow", "Keras", "Scikit-learn", "Autoencoders", "Neural Networks", "Prompt Engineering", "Fine-tuning LLMs", "LLM Integration & API Orchestration", "RAG Pipelines", "RAGAS (RAG Evaluation)", "LangChain Ecosystem", "ChromaDB", "FAISS", "Pinecone", "Redis", "Multi-Agent Systems"],
+    "Engineering & MLOps": ["Git", "Docker", "CI/CD", "FastAPI", "REST Architecture", "Model Deployment", "MLOps Pipelines", "Experiment Tracking", "Model Evaluation & Monitoring", "System Design"],
+    "Cloud & Automation": ["Cloud Computing (AWS)", "Cloud Deployment", "n8n", "Power Automate", "Copilot Agents"],
+    "Domains": ["Machine Learning", "Natural Language Processing", "Generative AI", "Agentic AI", "Statistical Modelling"]
+  },
+  "education": [
+    {
+      "institution": "Marathwada Mitra Mandal College Of Engineering Pune",
+      "degree": "Computer Engineering",
+      "score": "8.69 CGPA",
+      "dates": "May 2021-May 2025"
+    },
+    {
+      "institution": "IIT Madras",
+      "degree": "Diploma in Data Science",
+      "location": "Remote",
+      "dates": "Jan 2021-Sep 2024"
+    },
+    {
+      "institution": "University of Bristol",
+      "degree": "Masters in Data Science",
+      "location": "United Kingdom",
+      "dates": "Sep 2025- Present"
+    }
+  ],
+  "certifications": [
+    "Machine Learning - Microsoft",
+    "Generative AI - Microsoft",
+    "Data Analysis - Google",
+    "Cloud Computing - AWS"
+  ],
+  "extra": [
+    {
+      "type": "Publication",
+      "title": "Frontiers of Innovation: Exploring Emerging Technologies and Computing about Project Multiclass Malware Detection by using Modified GNN and Explainable AI",
+      "details": "Conference: ICETC - 2025, e-ISBN: 978-81-973215-9-7, DOI: 10.17492/jpi.pcet.022501"
+    },
+    {
+      "type": "Presentation",
+      "title": "Case Study Of Grocery Shop in IIT MADRAS as a BDM Project",
+      "link": "https://docs.google.com/document/d/1lSVPKkvH6zxtrXrGOzwW_OHYIUOanZI5/edit"
+    }
+  ]
+}
