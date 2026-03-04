@@ -81,12 +81,12 @@ export const Hero: React.FC = () => {
             
             {/* Image Container */}
             <div className="relative w-full h-full rounded-[2.5rem] overflow-hidden border border-emerald-500/20 bg-zinc-900 group shadow-2xl shadow-emerald-500/10">
-              <img
-                src="profile_photo.jpeg"
-                alt={data.basics.name}
-                className="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
-                referrerPolicy="no-referrer"
-              />
+             <img
+              src="/profile_photo.jpeg"
+              alt={data.basics.name}
+              className="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
+              referrerPolicy="no-referrer"
+             />
               
               {/* Futuristic Overlays */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60" />
