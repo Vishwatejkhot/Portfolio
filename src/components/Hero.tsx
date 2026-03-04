@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Download, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import data from '../data.json';
 
 export const Hero: React.FC = () => {
@@ -50,13 +50,6 @@ export const Hero: React.FC = () => {
                 View Experience <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </span>
             </button>
-            
-            <a
-              href="#"
-              className="px-8 py-4 bg-zinc-900 text-white font-semibold rounded-full border border-white/10 hover:bg-zinc-800 transition-all flex items-center gap-2"
-            >
-              Download Resume <Download className="w-4 h-4" />
-            </a>
           </div>
         </motion.div>
 
@@ -81,12 +74,12 @@ export const Hero: React.FC = () => {
             
             {/* Image Container */}
             <div className="relative w-full h-full rounded-[2.5rem] overflow-hidden border border-emerald-500/20 bg-zinc-900 group shadow-2xl shadow-emerald-500/10">
-             <img
-              src="/profile_photo.jpeg"
-              alt={data.basics.name}
-              className="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
-              referrerPolicy="no-referrer"
-             />
+              <img
+                src="/profile_photo.jpeg"
+                alt={data.basics.name}
+                className="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
+                referrerPolicy="no-referrer"
+              />
               
               {/* Futuristic Overlays */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60" />
